@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Rubik Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/styles.css">
+    <link rel="stylesheet" href="extraStylesheet.css">
+    <title>Recipe App</title>
+</head>
+<body class="bg-bgLight">
+    <div class="grid m-10 text-black grid-cols-3 gap-4">
+        <div class="row-span-4 col-span-3 bg-yellow-50">
+            <h1 class="text-center text-3xl">Recipe App</h1>
+        </div>
+        <div class="row-span-4 col-span-3">
+            <h1 id="mealName" class="text-center bg-yellow-50 text-2xl"></h1>
+        </div>
+        <div id="recipeIngredients" class="row-span-16 h-full col-span-1 bg-yellow-50 rounded-md flex  justify-center">
+        <h3 class="text-center text-xl">Ingredients:         
+            <ul class="ingredientList">
+
+            </ul>
+        </h3>      
+            
+        </div>
+        <div id="mealPicture" class="row-span-16 h-full col-span-2 bg-yellow-50 rounded-md flex items-center justify-center">
+            Background Image
+        </div>
+        <div id="mealInstructions" class="row-span-16 col-span-3 bg-yellow-50 rounded-md flex justify-center">
+            <h3 id="instructionsHead" class="text-center text-xl">Instructions:</h3>
+        </div>
+        <button id="generateBtn" class="bg-blue-500 col-span-3 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded m-auto">
+            Generate New
+        </button>
+        <div id="measurements" class="row-span-16  col-span-3 bg-yellow-50 rounded-md flex justify-center">
+           <h3 class="text-center text-xl">Measurements:
+            <ul id="measurementsList">
+
+            </ul>
+           </h3>
+        </div>
+    </div>
+
+    <script src="my.js"></script>    
+</body>
+</html>

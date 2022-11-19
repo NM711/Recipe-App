@@ -1,0 +1,9 @@
+#mealPicture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p, li {
+    font-family: 'Rubik', sans-serif;
+}
